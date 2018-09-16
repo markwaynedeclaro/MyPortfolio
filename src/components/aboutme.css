@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css?family=Righteous');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+div.aboutme-body {
+  margin: auto;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  padding-top: 1em;
+}
+
+.aboutme-grid {
+  text-align: center;
+  justify-content: center;
+  width: 80%;
+  height: 550px;
+  background: white;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.aboutme-grid img {
+  height: 180px;
+  border-radius: 10px;
+}
+
+.aboutme-grid .profileSummary {
+  width: 75%;
+  margin: auto;
+  padding-top: 1em;
+  font-family: 'Roboto', sans-serif;
+  color: black;
+}
+
+.aboutme-grid h2 {
+  font-family: 'Righteous', sans-serif;
+}
+
+.aboutme-grid hr {
+  border-top: 3px dotted #555;
+  width: 60%;
+  margin: auto;
+}
+
+div.icons {
+  width: 90%;
+  height: 100%;
+  margin: auto;
+}
+
+div.icons img {
+  margin: 10px;
+  height: 120px;
+  width: 130px;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  background-size: 120px 120px !important;
+}
+
+div.icons img:hover {
+  cursor: pointer;
+}
+
+
+
+
+
+
+@media screen and (max-width:700px) {
+
+  .aboutme-body {
+    margin-bottom: 100px;
+    overflow: auto;
+  }
+
+  .aboutme-grid img {
+    height: 80px;
+    border-radius: 10px;
+  }
+
+  .aboutme-grid .profileSummary {
+    width: 100%;
+  }
+
+  .aboutme-grid h2 {
+    font-size: 2em;
+    margin-bottom: 0;
+  }
+
+  .aboutme-grid hr {
+    border-top: 1px dotted #555;
+    width: 90%;
+    margin: auto;
+  }
+
+  div.icons {
+    width: 100%;
+  }
+
+  div.icons img {
+    margin-left: 5px;
+    height: 90px;
+    width: 90px;
+    border-radius: 10px;
+    background-size: 90px 90px !important;
+  }
+
+
+}
