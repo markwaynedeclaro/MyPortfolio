@@ -102,7 +102,7 @@ class Projects extends Component {
             <CardTitle className="spring">
               Group Management
             </CardTitle>
-            <CardText>A java program that will ingest log records to determine the overall health of the system. This test is based on OpenTracing</CardText>
+            <CardText>This is a Web Service built on plain Spring that handles User Group Management features for project Irvin.</CardText>
             <CardActions border>
               <a href="https://github.com/markwaynedeclaro/Irvin-2" rel="noopener noreferrer" target="_blank">
                 <Button colored>GitHub</Button>

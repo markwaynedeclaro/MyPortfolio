@@ -22,10 +22,9 @@ class AboutMe extends Component {
 
           <Cell col={6}>
             <h2>The Other Side</h2>
-            <hr />
 
             <div className="icons">
-              <Tooltip label="A competetive Ultimate Frisbee Player since 2006. " large>
+              <Tooltip label="A competitive Ultimate Frisbee Player since 2006. " large>
                 <img src="https://mbtskoudsalg.com/images/frisbee-clipart-ultimate-frisbee-10.png" alt="ultimate" />
               </Tooltip>
               <Tooltip label="''Ball is Life''" large>
@@ -45,8 +44,12 @@ class AboutMe extends Component {
                   <img src="https://developer.spotify.com/assets/branding-guidelines/icon1@2x.png" alt="spotify" />
                 </a>
               </Tooltip>
-
             </div>
+
+            <div>
+              
+            </div>
+
 
           </Cell>
 

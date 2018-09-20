@@ -4,7 +4,7 @@
 div.contact-body {
   text-align: center;
   height: 100%;
-  width: 50%;
+  width: 80%;
   margin: auto;
   justify-content: center;
   padding-top: 1em;
@@ -19,13 +19,14 @@ div.contact-body h2 {
 
 div.contact-body hr {
   border-top: 3px dotted #555;
-  width: 70%;
+  width: 50%;
   margin: auto;
 }
 
 div.contact-list {
-  width: 80%;
+  width: 70%;
   margin: auto;
+  padding-left: 20%;
 }
 
 div.contact-list .listItemContent {
@@ -33,7 +34,25 @@ div.contact-list .listItemContent {
   font-family: Roboto;
 }
 
-div.contact-list i {
+div.contact-list .listItemContent div {
+  color: #333 !important;
+}
+
+div.contact-list .listItemContent a {
+  text-decoration: none;
+  color: #333 !important;
+}
+
+div.contact-list .listItemContent a:hover {
+  color: #918c0e !important;
+}
+
+div.mobile {
+  display: none;
+}
+
+
+div.contact-list .listItemContent i {
   font-size: 50px;
   padding-right: 1em;
   width: 70px;
@@ -44,7 +63,7 @@ div.contact-list i {
 
 
 
-@media screen and (max-width:700px) {
+@media screen and (max-width:800px) {
 
   div.contact-body {
     width: 100%;
@@ -57,15 +76,36 @@ div.contact-list i {
 
   div.contact-list {
     width: 100%;
+    margin: auto;
+    padding-left: 0%;
   }
 
   div.contact-list .listItemContent {
-    font-size: 20px;
+    font-size: 15px;
+    padding-left: 10%;
   }
 
-  div.contact-list i {
+  div.mobile {
+    color: #333;
+    display: block;
+  }
+
+  div.desktop {
+    display: none;
+  }
+
+  div.contact-list .listItemContent i {
     font-size: 30px;
     padding-right: 2px;
+  }
+
+}
+
+@media screen and (max-width:400px) {
+
+  div.contact-list .listItemContent {
+    font-size: 10px;
+    padding-left: 10%;
   }
 
 }

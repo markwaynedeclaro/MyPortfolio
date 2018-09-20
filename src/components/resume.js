@@ -6,9 +6,10 @@ import Skills from './../components/resume/skills';
 import './resume.css';
 
 class Resume extends Component {
+
   render() {
     return (
-      <div className="resume-body">
+      <div className="resume-body" >
         <Grid className="resume-grid">
 
           <Cell className="resume-left-col" col={4}>
@@ -43,14 +44,13 @@ class Resume extends Component {
 
             <h3>Experience</h3>
             <Experience startYear={'Sep 2012'} endYear={'Jul 2018'}
-              jobName="Lead Programmer"
+              jobName="Senior Developer"
               company="Consumer Lending Group, BDO Unibank Inc."
               jobDescription="
               ● Handled two auxiliary systems for Consumer Lending Department
               ● In-charged of maintaining and delivering minor/major enhancement requests from the
               Business Unit users.
               ● Full SDLC of minor/major enhancements.
-              ● Alloted 70% of my time to coding.
               ● Performed Unit Testing for the modues I handled then SIT testing for all enhancements.
               ● Expanded from a total of 4 independent applications to 10 during my stay. This is composed of
                 2 main web applications, 2 perl-based programs and 6 web services.

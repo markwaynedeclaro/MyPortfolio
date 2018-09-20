@@ -19,9 +19,9 @@ class Experience extends Component {
             <h5 className="date">{this.props.startYear} - {this.props.endYear}</h5>
 
             <ul>
-            {jobs.map(eachJob => (
-              <li><p className="desc">{eachJob}</p></li>
-            ))}
+              {jobs.map(eachJob => (
+                <li key={eachJob.length}><p className="desc">{eachJob}</p></li>
+              ))}
             </ul>
 
           </div>
