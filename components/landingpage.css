@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+
+div.landingPage {
+  width: 100%;
+  margin: auto;
+  z-index: 1;
+}
+
+.landing-grid {
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+img.avatar {
+  height: 30%;
+  padding-top: 5em;
+  margin-bottom: 1%;
+  -webkit-transition: 1.0s;
+	-webkit-transform-style: preserve-3d;
+	-moz-transition: 1.0s;
+	-moz-transform-style: preserve-3d;
+  -o-transition: 1.0s;
+	-o-transform-style: preserve-3d;
+  transition: 1.0s;
+	transform-style: preserve-3d;
+}
+
+img.avatar:hover {
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+}
+
+
+div.banner {
+  background-color: black;
+  opacity: .8;
+  width: 60%;
+  margin: auto;
+  padding-top: 0.1em;;
+  padding-bottom: 1%;
+  border-radius: 10px;
+}
+
+div.banner h1 {
+  font-size: 50px;
+  font-weight: bold;
+  color: #ccc;
+  font-family: Roboto;
+  margin-bottom: 0;
+}
+
+div.banner hr {
+  border-top: 3px dotted white;
+  width: 60%;
+  margin: .5em auto .5em auto;
+}
+
+div.banner p {
+  color: #ddd;
+  font-size: 20px;
+  padding: 0.5em 1em 0 1em;
+  font-family: Nunito Sans;
+}
+
+div.social-links {
+  display: flex;
+  justify-content: space-between;
+  width: 20%;
+  margin: auto;
+}
+
+div.social-links i {
+  color: white;
+  font-size: 5em;
+  padding: 8px;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width:700px) {
+
+  .landing-grid {
+    background: #616161;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #616161,  #9bc5c3, #616161);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #616161, #9bc5c3, #616161); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+
+  div.banner {
+    width: 90%;
+    padding: 0.1% 1% 4% 1%;
+    margin-top: 2%;
+  }
+
+  div.banner h1 {
+    font-size: 30px;
+    margin-bottom: -0.1%;
+  }
+
+  div.banner hr {
+    border-top: 2px dotted white;
+    width: 90%;
+    margin-bottom: -2%;
+  }
+
+  div.banner p {
+    font-size: 15px;
+    margin-bottom: -1%;
+    padding: 0.8em 1em 0 1em;
+  }
+
+  div.social-links {
+    width: 40%;
+  }
+
+  div.social-links i {
+    font-size: 4em;
+  }
+
+}
+
+
+@media screen and (min-width:701px) {
+
+    #fog,
+    #fog-2 {
+    	position: absolute;
+    	top: 50%;
+    	left: 50%;
+    	width: 2000px;
+    	height: 2000px;
+    	margin-top: -1000px;
+    	margin-left: -1000px;
+    	opacity: .5;
+    	background: url(./../assets/fog.png) repeat-x 0 center;
+      background-size: 80%;
+    	-webkit-animation-name: fogAnimation;
+    	-webkit-animation-duration: 30s;
+    	-webkit-animation-iteration-count: infinite;
+    	-webkit-animation-timing-function: linear;
+    }
+
+    #fog-2 {
+    	opacity: 1;
+    	-webkit-animation-duration: 120s;
+    }
+
+    @-webkit-keyframes fogAnimation {
+    	from {
+    		-webkit-transform: rotate(0deg);
+    		background-position: 0 center;
+    	}
+    	to {
+    		-webkit-transform: rotate(360deg);
+    		background-position: 2000px center;
+    	}
+    }
+
+    #glow {
+    	position: absolute;
+    	top: 25%;
+    	left: 50%;
+    	width: 800px;
+    	height: 800px;
+    	margin: 400px 0 0 400px;
+    	background: url(./../assets/glow.png) repeat-x 0 0;
+    	-webkit-animation-name: glowAnimation;
+    	-webkit-animation-duration: 5s;
+    	-webkit-animation-iteration-count: infinite;
+    	-webkit-animation-timing-function: linear;
+    }
+
+    @-webkit-keyframes glowAnimation {
+    	from {
+    		opacity: 1;
+    	}
+    	50% {
+    		opacity: .75;
+    	}
+    	to {
+    		opacity: 1;
+    	}
+    }
+
+    #light {
+    	position: absolute;
+    	top: 55%;
+    	left: 50%;
+    	width: 800px;
+    	height: 800px;
+    	margin: -400px 0 0 -400px;
+    	background: url(./../assets/light.png) no-repeat center center;
+    	-webkit-animation-name: lightAnimation;
+    	-webkit-animation-duration: 1s;
+    	-webkit-animation-iteration-count: infinite;
+    	-webkit-animation-timing-function: linear;
+    }
+
+    @-webkit-keyframes lightAnimation {
+    	from {
+    		opacity: .25;
+    	}
+    	50% {
+    		opacity: .5;
+    	}
+    	to {
+    		opacity: .25;
+    	}
+    }
+
+    #stars,
+    #stars-2 {
+    	position: absolute;
+    	top: 50%;
+    	left: 50%;
+    	width: 600px;
+    	height: 600px;
+    	margin: -300px 0 0 -300px;
+    	background: url(./../assets/stars-large.png) no-repeat center center;
+    	-webkit-animation-name: starsLarge;
+    	-webkit-animation-duration: 60s;
+    	-webkit-animation-iteration-count: infinite;
+    	-webkit-animation-timing-function: linear;
+    }
+
+    @-webkit-keyframes starsLarge {
+    	from {
+    		-webkit-transform: rotate(0deg) scale(3);
+    		opacity: .1;
+    	}
+    	to {
+    		-webkit-transform: rotate(360deg) scale(.5);
+    		opacity: 0;
+    	}
+    }
+
+    #stars-2 {
+    	-webkit-animation-name: starsLargeAlt;
+    	-webkit-animation-duration: 45s;
+    	-webkit-animation-iteration-count: infinite;
+    	-webkit-animation-timing-function: linear;
+    }
+
+    @-webkit-keyframes starsLargeAlt {
+    	from {
+    		-webkit-transform: rotate(180deg) scale(3);
+    		opacity: .25;
+    	}
+    	to {
+    		-webkit-transform: rotate(360deg) scale(.5);
+    		opacity: 0;
+    	}
+    }
+
+  }

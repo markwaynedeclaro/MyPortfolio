@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+div.contact-body {
+  text-align: center;
+  height: 100%;
+  width: 80%;
+  margin: auto;
+  justify-content: center;
+  padding-top: 1em;
+  justify-content: center;
+  color: #999;
+}
+
+div.contact-body h2 {
+  font-family: Roboto, sans-serif;
+}
+
+div.contact-body hr {
+  border-top: 3px dotted #555;
+  width: 50%;
+  margin: auto;
+}
+
+div.contact-list {
+  width: 70%;
+  margin: auto;
+  padding-left: 20%;
+}
+
+div.contact-list .listItemContent {
+  font-size: 25px;
+  font-family: Roboto;
+}
+
+div.contact-list .listItemContent {
+  color: #999;
+}
+
+div.contact-list .listItemContent a {
+  text-decoration: none;
+  color: #999;
+}
+
+div.contact-list .listItemContent a:hover {
+  color: #918c0e !important;
+}
+
+div.mobile {
+  display: none;
+}
+
+
+div.contact-list .listItemContent i {
+  font-size: 50px;
+  padding-right: 1em;
+  width: 70px;
+  vertical-align: middle;
+}
+
+
+
+
+
+@media screen and (max-width:800px) {
+
+  div.contact-body {
+    width: 100%;
+    padding-top: 10%;
+  }
+
+  div.contact-body h2 {
+    font-size: 3em;
+  }
+
+  div.contact-list {
+    width: 100%;
+    margin: auto;
+    padding-left: 0%;
+  }
+
+  div.contact-list .listItemContent {
+    font-size: 15px;
+    padding-left: 10%;
+  }
+
+  div.mobile {
+    color: #999;
+    display: block;
+  }
+
+  div.desktop {
+    display: none;
+  }
+
+  div.contact-list .listItemContent i {
+    font-size: 30px;
+    padding-right: 2px;
+  }
+
+}
+
+@media screen and (max-width:400px) {
+
+  div.contact-list .listItemContent {
+    font-size: 10px;
+    padding-left: 10%;
+  }
+
+}
