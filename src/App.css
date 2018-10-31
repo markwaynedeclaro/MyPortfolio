@@ -1,9 +1,8 @@
 .header {
   background-color: rgba(0, 0, 255, 0) !important;
-  /*background: #616161;  /* fallback for old browsers */
-  /*background: -webkit-linear-gradient(to right, #616161,  #9bc5c3, #616161, #616161);  /* Chrome 10-25, Safari 5.1-6 */
-  /*background: linear-gradient(to right, #616161, #9bc5c3, #616161, #616161); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
+
+
 
 .link {
     animation-name: color_change;
@@ -20,7 +19,7 @@
 }
 
 .link:hover {
-  color: #333 !important;
+  color: #fff !important;
   padding-top: 10px !important;
   font-size: 15px !important;
   transition: all 0.6s ease !important;
@@ -31,7 +30,7 @@
 
 @keyframes color_change {
 	from { color: #aaa; }
-	to   { color: #666; }
+	to   { color: #777; }
 }
 
 
@@ -44,4 +43,12 @@
     margin-left: 100%;
   }
 
+  .drawer {
+    width: 35% !important;
+  }
+  
+  .mdl-layout .mdl-layout__drawer-button {
+    color: #555;
+  }
+  
  }

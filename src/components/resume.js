@@ -18,7 +18,7 @@ class Resume extends Component {
             <h4>Full Stack Java Developer</h4>
             <hr/>
             <h5>Address</h5>
-            <p>42 Bates Street, Strathfield, NSW 2135</p>
+            <p>26/6-8 The Crescent, Homebush, NSW 2140</p>
             <h5>Phone</h5>
             <p>(+61) 406 753 085</p>
             <h5>Email</h5>
@@ -47,20 +47,27 @@ class Resume extends Component {
               jobName="Senior Developer"
               company="Consumer Lending Group, BDO Unibank Inc."
               jobDescription="
-              ● Handled two auxiliary systems for Consumer Lending Department
+              ● Handled two auxiliary systems for Consumer Lending Department Department 
+                (a merchant payment System and an Auto Charge Arrangement System)
               ● In-charged of maintaining and delivering minor/major enhancement requests from the
-              Business Unit users.
-              ● Full SDLC of minor/major enhancements.
-              ● Performed Unit Testing for the modues I handled then SIT testing for all enhancements.
-              ● Expanded from a total of 4 independent applications to 10 during my stay. This is composed of
-                2 main web applications, 2 perl-based programs and 6 web services.
-          		● Spearheaded the Framework Migration of two main web applications from Struts 2 to Spring 4.
-          		  This enhancement  also entailed migration to Java 8 and Tomcat 8. We used a lot of Jquery
-                for the front-end tier. We capitalized Spring Security and Spring JDBC component. We used
-                HP LoadRunner as testing tool (for functional and stress testing). Then we just recently used
-                Ansible for deployment. This resulted to a much better application in terms of user interface
-                and performance.
-          		● Led the Framework Migration of two SOAP-based Web Services to Restful Web
+                Business Unit users.
+              ● Agile/Scrum environment.
+              ● Successfully completed  the Framework Migration of the web application for Merchant 
+		            Payments from Struts to Spring 4. This enhancement  also entailed migration to Java 8 and 
+		            Tomcat 8. We used JSP, CSS and Jquery for the front-end tier. We capitalized Spring 
+		            Security and JDBC. We used HP LoadRunner as stress testing tool, Junit for unit testing and 
+                Git as repository. Our devops used Jenkins for CI/CD. As per user feedback, the application   
+                has a much better UI and is now more responsive.
+              ● Created  an app for CCUPS that takes in a credit card number then retrieves all (cancelled, active) 
+                subcriptions to any autocharge arrangement.                
+              ● Successfully completed  the Framework Migration of the web application for Auto Charge 
+                Arrangement from Struts 2 to Spring 4. This enhancement  also entailed migration to Java 8 
+                and Tomcat 8. We used JSP, CSS and Jquery for the front-end tier. We capitalized Spring 
+                Security. Hibernate was used for the persistence layer. We used HP LoadRunner as stress 
+                testing tool, Junit for unit testing and Git for repository. Our devops used Jenkins for CI/CD. 
+                This resulted to a much better application in terms of user interface and performance (as per 
+                user feedback).
+          		● Completed the Framework Migration of SOAP-based Web Services to Restful Web
                 Services built on Spring framework.
               "
             />
@@ -70,6 +77,7 @@ class Resume extends Component {
               company="CAI-STA Philippines "
               jobDescription="
                ● Part of a team that supports the online business arm of a major supplier company.
+               ● Agile/Scrum environment.
 		           ● Developed the Dashboard interface for the website (front-end to back-end). We used Spring as
 		             our main framework then Hibernate for the persistence layer. I took advantage of Jquery for the
 		             front-end tier."

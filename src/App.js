@@ -20,7 +20,7 @@ class App extends Component {
                  <Link className="link" to="/contact"> Contact </Link>
                </Navigation>
             </Header>
-            <Drawer title={<Link style={{textDecoration: 'none', color: '#555'}} to="/">My Portfolio</Link>}>
+            <Drawer className="drawer" title={<Link style={{textDecoration: 'none', color: '#555'}} to="/">Home</Link>}>
                 <Navigation>
                   <Link onClick={this.onLinkClick} to="/resume">Resume</Link>
                   <Link onClick={this.onLinkClick} to="/projects">Projects</Link>

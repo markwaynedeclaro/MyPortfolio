@@ -1,4 +1,9 @@
 
+div.resume-body {
+		color: #ccc;
+}
+
+
 .table {
 	display: table;
   width: 100%;
@@ -19,17 +24,18 @@
 }
 
 .resume-left-col h4 {
-  color: grey;
+  color: #555;
 }
 
 .resume-left-col hr {
-  border-top: 2px solid rgba(#8597DB, 0.43);
+  border-top: 2px solid #243882 !important;
+	opacity: 0.4;
   width: 63%;
 }
 
 
 .resume-right-col {
-  background: #27221F;
+  background: #171310;
   color: #bbb;
   border-radius: 10px;
   padding-right: 2%;

@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=Righteous');
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
 div.contact-body {
@@ -9,12 +8,11 @@ div.contact-body {
   justify-content: center;
   padding-top: 1em;
   justify-content: center;
-  color: #555;
-  background: white;
+  color: #999;
 }
 
 div.contact-body h2 {
-  font-family: Righteous, sans-serif;
+  font-family: Roboto, sans-serif;
 }
 
 div.contact-body hr {
@@ -34,13 +32,13 @@ div.contact-list .listItemContent {
   font-family: Roboto;
 }
 
-div.contact-list .listItemContent div {
-  color: #333 !important;
+div.contact-list .listItemContent {
+  color: #999;
 }
 
 div.contact-list .listItemContent a {
   text-decoration: none;
-  color: #333 !important;
+  color: #999;
 }
 
 div.contact-list .listItemContent a:hover {
@@ -86,7 +84,7 @@ div.contact-list .listItemContent i {
   }
 
   div.mobile {
-    color: #333;
+    color: #999;
     display: block;
   }
 

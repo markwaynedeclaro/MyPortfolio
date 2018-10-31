@@ -1,21 +1,29 @@
+
+div.category-tabs .tab {
+  color: #999 !important;
+  border-radius: 10px !important;
+}
+
 div.projects-grid {
   display: flex;
 }
 
 div.projects-grid .card {
+  opacity: 0.8;
   midWidth: 10%;
   margin: auto;
   margin-top: 1%;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(150, 150, 150, 0.5), 0 6px 20px 0 rgba(180, 180, 180, 0.29);
 }
 
 div.projects-grid .react {
-  color: white;
+  color: #555;
   height: 90px;
   background-position: calc(100% + 10px) calc(100% - 5px) !important;
   background-size: 120px 80px !important;
   background-repeat: no-repeat !important;
-  background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/640px-React-icon.svg.png) center / cover;
-  background-color: black;
+  background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1280px-React-icon.svg.png) center / cover;
 }
 
 div.projects-grid .springboot {
